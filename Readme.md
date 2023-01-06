@@ -57,7 +57,11 @@ docker buildx build --pull \
 ```
 
 
+## Running on Arm64
 
+```bash
+   docker run --platform="linux/arm64" -d -p 8081:8081 --name=nexu3 klo2k/nexus3:latest
+```
 
 ## Credits
 
